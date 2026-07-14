@@ -2,8 +2,6 @@
 
 Hands-on labs working through the core of **Apache Spark's Python API**: DataFrames, Spark SQL, RDDs, batch ETL jobs, and Structured Streaming — applied to the [NYC TLC Yellow Taxi trip records](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) (~3M trips/month, Parquet).
 
-> **Provenance:** a guided learning project I completed to build practical PySpark skills, based on a lab structure by <!-- TODO(Danish): name/link the original repo or its author (your colleague?) -->, worked through together with a colleague. The notebook executions, queries, and analysis runs are my own; the lab scaffolding and workflow diagrams are from the original project.
-
 ## 🗂️ Labs
 
 | Notebook | Covers |
@@ -16,9 +14,6 @@ Hands-on labs working through the core of **Apache Spark's Python API**: DataFra
 | `Spark-Job-Load-Query.ipynb` | A batch ETL job: load taxi trips, filter multi-passenger trips, write partitioned Parquet to a reporting layer |
 | `Final-Analysis.ipynb` | Consuming the ETL job's output for downstream analysis |
 
-## 🏗️ Workflow
-
-![project workflow](img/project-workflow.svg)
 
 ## 📦 Data
 
