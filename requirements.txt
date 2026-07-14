@@ -1,0 +1,3 @@
+pyspark>=3.5
+jupyter
+pandas>=2.0
